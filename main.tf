@@ -70,7 +70,7 @@ data "aws_ami" "amazon_linux" {
     values = ["ebs"]
   }
 
-  owners = ["amazon"] # Canonical
+  # owners = ["amazon"] # Canonical
 }
 
 resource "aws_iam_role" "test_role" {
